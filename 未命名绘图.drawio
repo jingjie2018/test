@@ -1,47 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-01-12T18:46:40.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76" etag="8mrF8AxBwD47f3c644dD" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-12T19:03:20.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76" etag="Xv4Gsm7wsM1Zl2e8QIzT" version="20.8.5" type="github">
   <diagram id="SIKZJ5OvWdf6jRGlZ0ak" name="第 1 页">
     <mxGraphModel dx="1003" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OFJ5Goqv8C-owGQzhqaM-2" value="" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="240" width="360" height="610" as="geometry" />
+        <mxCell id="OFJ5Goqv8C-owGQzhqaM-27" value="BFF" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="OFJ5Goqv8C-owGQzhqaM-3" value="BFF" style="swimlane;startSize=20;html=1;" vertex="1" parent="OFJ5Goqv8C-owGQzhqaM-2">
-          <mxGeometry y="20" width="120" height="590" as="geometry" />
+        <mxCell id="OFJ5Goqv8C-owGQzhqaM-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OFJ5Goqv8C-owGQzhqaM-27">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OFJ5Goqv8C-owGQzhqaM-6" value="创单" style="whiteSpace=wrap;html=1;" vertex="1" parent="OFJ5Goqv8C-owGQzhqaM-3">
-          <mxGeometry x="30" y="50" width="60" height="30" as="geometry" />
+        <mxCell id="OFJ5Goqv8C-owGQzhqaM-28" value="UNEX" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="OFJ5Goqv8C-owGQzhqaM-4" value="UNEX" style="swimlane;startSize=20;html=1;" vertex="1" parent="OFJ5Goqv8C-owGQzhqaM-2">
-          <mxGeometry x="120" y="20" width="120" height="590" as="geometry" />
+        <mxCell id="OFJ5Goqv8C-owGQzhqaM-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OFJ5Goqv8C-owGQzhqaM-28">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OFJ5Goqv8C-owGQzhqaM-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OFJ5Goqv8C-owGQzhqaM-4" source="OFJ5Goqv8C-owGQzhqaM-7" target="OFJ5Goqv8C-owGQzhqaM-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OFJ5Goqv8C-owGQzhqaM-7" value="创单" style="whiteSpace=wrap;html=1;" vertex="1" parent="OFJ5Goqv8C-owGQzhqaM-4">
-          <mxGeometry x="30" y="50" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OFJ5Goqv8C-owGQzhqaM-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OFJ5Goqv8C-owGQzhqaM-4" source="OFJ5Goqv8C-owGQzhqaM-11" target="OFJ5Goqv8C-owGQzhqaM-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OFJ5Goqv8C-owGQzhqaM-11" value="是否COD" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="OFJ5Goqv8C-owGQzhqaM-4">
-          <mxGeometry x="20" y="120" width="80" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="OFJ5Goqv8C-owGQzhqaM-14" value="待发货" style="whiteSpace=wrap;html=1;" vertex="1" parent="OFJ5Goqv8C-owGQzhqaM-4">
-          <mxGeometry x="30" y="190" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OFJ5Goqv8C-owGQzhqaM-5" value="Trade" style="swimlane;startSize=20;html=1;" vertex="1" parent="OFJ5Goqv8C-owGQzhqaM-2">
-          <mxGeometry x="240" y="20" width="120" height="590" as="geometry" />
-        </mxCell>
-        <mxCell id="OFJ5Goqv8C-owGQzhqaM-9" value="创单" style="whiteSpace=wrap;html=1;" vertex="1" parent="OFJ5Goqv8C-owGQzhqaM-5">
-          <mxGeometry x="30" y="50" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OFJ5Goqv8C-owGQzhqaM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="OFJ5Goqv8C-owGQzhqaM-2" source="OFJ5Goqv8C-owGQzhqaM-7" target="OFJ5Goqv8C-owGQzhqaM-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OFJ5Goqv8C-owGQzhqaM-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OFJ5Goqv8C-owGQzhqaM-2" source="OFJ5Goqv8C-owGQzhqaM-6" target="OFJ5Goqv8C-owGQzhqaM-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="OFJ5Goqv8C-owGQzhqaM-29" value="TRADE" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="100" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
