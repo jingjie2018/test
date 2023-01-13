@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T03:41:16.343Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76" etag="WoG_j8kbr5EDUF2kO12h" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-13T03:53:20.203Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76" etag="Dm4rLFUpMtNiDaKONCsr" version="20.8.5" type="github">
   <diagram id="SIKZJ5OvWdf6jRGlZ0ak" name="第 1 页">
     <mxGraphModel dx="1180" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -211,7 +211,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OFJ5Goqv8C-owGQzhqaM-47" value="创单&lt;br&gt;订单类型：COD&lt;br&gt;订单标签：代客下单、试穿订单）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="160" y="430" width="200" height="60" as="geometry" />
+          <mxGeometry x="160" y="420" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OFJ5Goqv8C-owGQzhqaM-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OFJ5Goqv8C-owGQzhqaM-36" target="OFJ5Goqv8C-owGQzhqaM-27">
           <mxGeometry relative="1" as="geometry">
@@ -234,14 +234,6 @@
         </mxCell>
         <mxCell id="OFJ5Goqv8C-owGQzhqaM-72" value="创单成功事件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="520" y="540" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OFJ5Goqv8C-owGQzhqaM-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.6;entryY=0.111;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OFJ5Goqv8C-owGQzhqaM-30" target="OFJ5Goqv8C-owGQzhqaM-36">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="180" y="450" />
-              <mxPoint x="180" y="450" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="OFJ5Goqv8C-owGQzhqaM-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OFJ5Goqv8C-owGQzhqaM-61" target="OFJ5Goqv8C-owGQzhqaM-28">
           <mxGeometry relative="1" as="geometry">
@@ -529,6 +521,14 @@
         </mxCell>
         <mxCell id="OFJ5Goqv8C-owGQzhqaM-213" value="退货退款" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="1735" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OFJ5Goqv8C-owGQzhqaM-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.6;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;" edge="1" parent="1" source="OFJ5Goqv8C-owGQzhqaM-30" target="OFJ5Goqv8C-owGQzhqaM-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="440" />
+              <mxPoint x="160" y="440" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
