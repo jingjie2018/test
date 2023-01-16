@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T08:50:20.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76" version="20.8.5" etag="T6HAUC7e2U1OjpMKhjU8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-16T08:56:03.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76" version="20.8.5" etag="fIaGwIPj-0GDPGT9CoNS" type="github">
   <diagram id="oeOLm6TmariHXOsiJxw1" name="第 1 页">
     <mxGraphModel dx="560" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
         <mxCell id="Qx3qVUNE9kL9CaYIBk6r-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Qx3qVUNE9kL9CaYIBk6r-5">
           <mxGeometry x="60" y="239" width="10" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="Qx3qVUNE9kL9CaYIBk6r-12" value="更新订单hasAfterSales标识（仅退款售后）&lt;br&gt;如果失败，作废仅退款售后单" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;dashed=1;" edge="1" parent="Qx3qVUNE9kL9CaYIBk6r-5" target="Qx3qVUNE9kL9CaYIBk6r-11">
+        <mxCell id="Qx3qVUNE9kL9CaYIBk6r-12" value="1、成功更新hasAfterSales标识（仅退款售后）&lt;br&gt;2、失败，作废仅退款售后单" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;dashed=1;" edge="1" parent="Qx3qVUNE9kL9CaYIBk6r-5" target="Qx3qVUNE9kL9CaYIBk6r-11">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="69" y="230" as="sourcePoint" />
             <Array as="points">
@@ -161,7 +161,7 @@
             <mxPoint x="2040" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qx3qVUNE9kL9CaYIBk6r-33" value="取消成功事件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Qx3qVUNE9kL9CaYIBk6r-33" value="取消结果事件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2140" y="540" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Qx3qVUNE9kL9CaYIBk6r-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
@@ -180,7 +180,7 @@
         <mxCell id="Qx3qVUNE9kL9CaYIBk6r-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="2040" y="970" width="10" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="Qx3qVUNE9kL9CaYIBk6r-37" value="创建仅退款售后单（取status）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;dashed=1;" edge="1" parent="1" target="Qx3qVUNE9kL9CaYIBk6r-36">
+        <mxCell id="Qx3qVUNE9kL9CaYIBk6r-37" value="创建仅退款售后单" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;dashed=1;" edge="1" parent="1" target="Qx3qVUNE9kL9CaYIBk6r-36">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2049" y="961" as="sourcePoint" />
             <Array as="points">
