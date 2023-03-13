@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-13T07:58:20.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69" etag="wFBP-YfY4-mcKKpSSt41" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-13T08:03:45.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69" etag="66ZkVzEABysYTJf5w3bg" version="21.0.6" type="github">
   <diagram id="daWr7Y4OFURx9f-IC2Lk" name="第 1 页">
     <mxGraphModel dx="1830" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
         <mxCell id="nyJuiaISvNmFmO7uwHaw-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="nyJuiaISvNmFmO7uwHaw-2" vertex="1">
           <mxGeometry x="50" y="175" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nyJuiaISvNmFmO7uwHaw-4" value="解析Excel，校验捆绑" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="nyJuiaISvNmFmO7uwHaw-2" target="nyJuiaISvNmFmO7uwHaw-3" edge="1">
+        <mxCell id="nyJuiaISvNmFmO7uwHaw-4" value="捆绑：同步解析Excel校验" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="nyJuiaISvNmFmO7uwHaw-2" target="nyJuiaISvNmFmO7uwHaw-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="155" as="sourcePoint" />
             <Array as="points">
@@ -100,7 +100,7 @@
           <mxGeometry x="5" y="290" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nyJuiaISvNmFmO7uwHaw-54" value="promotion-engine" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="760" y="160" width="100" height="680" as="geometry" />
+          <mxGeometry x="760" y="160" width="100" height="720" as="geometry" />
         </mxCell>
         <mxCell id="nyJuiaISvNmFmO7uwHaw-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="nyJuiaISvNmFmO7uwHaw-54" vertex="1">
           <mxGeometry x="45" y="340" width="10" height="310" as="geometry" />
@@ -146,7 +146,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nyJuiaISvNmFmO7uwHaw-64" value="basic" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="960" y="160" width="100" height="680" as="geometry" />
+          <mxGeometry x="960" y="160" width="100" height="720" as="geometry" />
         </mxCell>
         <mxCell id="nyJuiaISvNmFmO7uwHaw-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="nyJuiaISvNmFmO7uwHaw-64" vertex="1">
           <mxGeometry x="45" y="150" width="10" height="70" as="geometry" />
@@ -155,7 +155,7 @@
           <mxGeometry x="45" y="50" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nyJuiaISvNmFmO7uwHaw-93" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="nyJuiaISvNmFmO7uwHaw-64" vertex="1">
-          <mxGeometry x="45" y="380" width="10" height="200" as="geometry" />
+          <mxGeometry x="45" y="380" width="10" height="270" as="geometry" />
         </mxCell>
         <mxCell id="nyJuiaISvNmFmO7uwHaw-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="nyJuiaISvNmFmO7uwHaw-71" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -206,8 +206,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nyJuiaISvNmFmO7uwHaw-83" value="捆绑：同步解析Excel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="830" y="290" width="140" height="30" as="geometry" />
+        <mxCell id="nyJuiaISvNmFmO7uwHaw-83" value="捆绑：同步解析Excel校验" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="820" y="290" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nyJuiaISvNmFmO7uwHaw-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.857;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -223,7 +223,7 @@
           <mxGeometry x="850" y="330" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nyJuiaISvNmFmO7uwHaw-86" value="MQ" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="160" width="100" height="680" as="geometry" />
+          <mxGeometry x="1160" y="160" width="100" height="720" as="geometry" />
         </mxCell>
         <mxCell id="nyJuiaISvNmFmO7uwHaw-87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="nyJuiaISvNmFmO7uwHaw-86" vertex="1">
           <mxGeometry x="45" y="280" width="10" height="100" as="geometry" />
@@ -302,6 +302,19 @@
         </mxCell>
         <mxCell id="nyJuiaISvNmFmO7uwHaw-107" value="&lt;b&gt;改造后&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1050" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EUxmV1XCxSGdcXlaIXv6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="812.5" y="800" as="sourcePoint" />
+            <mxPoint x="1007.5" y="800.02" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="837.5" y="800" />
+              <mxPoint x="837.5" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUxmV1XCxSGdcXlaIXv6-3" value="推送数据处理结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="845" y="770" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
