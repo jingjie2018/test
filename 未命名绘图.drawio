@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-13T05:36:47.280Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69" etag="wWpVMvv2XV36vNHOtrog" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-13T05:37:21.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69" etag="jkWDueD5sb3C8IqPvh3e" version="21.0.6" type="github">
   <diagram id="daWr7Y4OFURx9f-IC2Lk" name="第 1 页">
     <mxGraphModel dx="1830" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
         <mxCell id="nyJuiaISvNmFmO7uwHaw-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="nyJuiaISvNmFmO7uwHaw-2" vertex="1">
           <mxGeometry x="50" y="175" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nyJuiaISvNmFmO7uwHaw-4" value="解析Excel，&lt;br&gt;校验捆绑和SKU重复（已存在活动）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="nyJuiaISvNmFmO7uwHaw-2" target="nyJuiaISvNmFmO7uwHaw-3" edge="1">
+        <mxCell id="nyJuiaISvNmFmO7uwHaw-4" value="解析Excel，校验捆绑" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="nyJuiaISvNmFmO7uwHaw-2" target="nyJuiaISvNmFmO7uwHaw-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="155" as="sourcePoint" />
             <Array as="points">
@@ -126,7 +126,7 @@
         <mxCell id="nyJuiaISvNmFmO7uwHaw-62" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="nyJuiaISvNmFmO7uwHaw-54" vertex="1">
           <mxGeometry x="50" y="240" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nyJuiaISvNmFmO7uwHaw-63" value="校验捆绑和SKU重复（已存在活动）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="nyJuiaISvNmFmO7uwHaw-54" target="nyJuiaISvNmFmO7uwHaw-62" edge="1">
+        <mxCell id="nyJuiaISvNmFmO7uwHaw-63" value="校验捆绑" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="nyJuiaISvNmFmO7uwHaw-54" target="nyJuiaISvNmFmO7uwHaw-62" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="220" as="sourcePoint" />
             <Array as="points">
